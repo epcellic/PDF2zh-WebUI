@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and runtime files
+*.log
+server_console.log
+server_console_err.log
+_restart.flag
+
+# Translation outputs and uploads
+translated/
+server/translated/
+PDF2zh-MegaPower/server/translated/
+PDF2zh-MegaPower/server/*.log
+PDF2zh-MegaPower/server/_restart.flag
+
+# User configs (preserve .example)
+config.json
+config.toml
+venv.json
+PDF2zh-MegaPower/server/config/config.json
+PDF2zh-MegaPower/server/config/config.toml
+PDF2zh-MegaPower/server/config/venv.json
+!*.example
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
